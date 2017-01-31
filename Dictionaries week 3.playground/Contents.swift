@@ -72,7 +72,7 @@ var detailZipCode = [burkeCountie, camdenCountie, chathamCountie]
 
 //zipCodesGeorgia = ["burkeCountie": 30306, 30307, 30308, 30309, 30310, "camdenCountie": 30311, 30312, 30313, 30314, 30315, "chathamCountie": 30301, 30302, 30303, 30304, 30305]
 
-//I am missing something.
+//I am missing something. It seems i understand but i am simply blocked.
 
 
 
