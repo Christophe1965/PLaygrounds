@@ -12,4 +12,7 @@ var moneySpentOnDrink: Float = 20
  //test if you have any money left
     //buy drinks - spend money, by taking the drinkPrice away from the money
 
-while buying Drink _ = {( drinkPrice -= money )
+
+
+    
+
