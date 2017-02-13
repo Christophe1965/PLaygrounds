@@ -15,6 +15,7 @@
 		E8A9A7911E48758B0080AA7A /* WorldTrotterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A9A7901E48758B0080AA7A /* WorldTrotterUITests.swift */; };
 		E8A9A79F1E489F820080AA7A /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A9A79E1E489F820080AA7A /* ConversionViewController.swift */; };
 		E8A9A7A21E48E5210080AA7A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8A9A7A11E48E5210080AA7A /* MapKit.framework */; };
+		E8FABBAE1E49E3EA0025D269 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FABBAD1E49E3EA0025D269 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E8A9A7921E48758B0080AA7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8A9A79E1E489F820080AA7A /* ConversionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 		E8A9A7A11E48E5210080AA7A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E8FABBAD1E49E3EA0025D269 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				E8A9A7701E48758A0080AA7A /* AppDelegate.swift */,
 				E8A9A7741E48758A0080AA7A /* Main.storyboard */,
+				E8FABBAD1E49E3EA0025D269 /* MapViewController.swift */,
 				E8A9A7771E48758A0080AA7A /* Assets.xcassets */,
 				E8A9A7791E48758A0080AA7A /* LaunchScreen.storyboard */,
 				E8A9A77C1E48758A0080AA7A /* Info.plist */,
@@ -273,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8A9A79F1E489F820080AA7A /* ConversionViewController.swift in Sources */,
+				E8FABBAE1E49E3EA0025D269 /* MapViewController.swift in Sources */,
 				E8A9A7711E48758A0080AA7A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -520,6 +524,7 @@
 				E8A9A7971E48758B0080AA7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8A9A7981E48758B0080AA7A /* Build configuration list for PBXNativeTarget "WorldTrotterTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +533,7 @@
 				E8A9A79A1E48758B0080AA7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8A9A79B1E48758B0080AA7A /* Build configuration list for PBXNativeTarget "WorldTrotterUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +542,7 @@
 				E8A9A79D1E48758B0080AA7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
